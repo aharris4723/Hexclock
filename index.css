@@ -1,0 +1,72 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+    background-color: grey;
+}
+#hours{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 20%;
+	/*float: left;*/
+	position: absolute;
+	left:14%; 
+	top:25%;
+	background-color: black;
+	opacity: .5;
+
+}
+#minutes{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 20%;
+	/*float: left;*/
+	left:36.2%; 
+	top:25%;
+    background-color: black;
+    position: absolute;
+    opacity: .5;
+}
+#seconds{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 20%;
+	/*float: left;*/
+	left:58.3%; 
+	top:25%;
+    background-color: black;
+    position: absolute;
+    opacity: .5;
+}
+@media all and (max-width: 480px){
+  body{
+
+  }
+  p{
+
+    
+  }
+
+}
+@media all and (max-width: 480px) and (max-width: 767px){
+  body{
+
+  }
+  p{
+    
+  }
+
+}
+@media all and (max-width: 480px) and (max-width: 992px){
+  body{
+
+  }
+  p{
+    
+  }
+
+}
