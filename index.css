@@ -2,71 +2,240 @@
 	margin: 0 auto;
 	padding: 0 auto;
 }
-body{
-    background-color: grey;
+
+#head{
+	position: absolute;
+	left: 35%;
+	font-family: 'Anton', sans-serif;
+	font-size: 72pt;
+	color: black;
 }
 #hours{
-	border: 2px solid black;
+	border: px solid black;
 	height: 300px;
 	width: 300px;
-	border-radius: 20%;
-	/*float: left;*/
+	border-radius: 50%;
 	position: absolute;
-	left:14%; 
+	left:13.9%; 
 	top:25%;
 	background-color: black;
-	opacity: .5;
-
+	background-position: center;
+	opacity: .8;
+	text-align: cover;
+    color: black;
+    font-size: 30pt;
+    background-image: url('gear11.jpg');
+    -webkit-animation: rotation 10s infinite linear;
+  
 }
+
+
 #minutes{
-	border: 2px solid black;
+	border: px solid black;
 	height: 300px;
 	width: 300px;
-	border-radius: 20%;
-	/*float: left;*/
+	border-radius: 50%;
 	left:36.2%; 
 	top:25%;
     background-color: black;
+    background-image: url('gear12.jpg');
+    background-position: center;
     position: absolute;
-    opacity: .5;
+    opacity: .8;
+    text-align: center;
+    color: black;
+    font-size: 30pt;
+    -webkit-animation: rotation 10s infinite linear;
 }
+
 #seconds{
-	border: 2px solid black;
+	border: px solid black;
 	height: 300px;
 	width: 300px;
-	border-radius: 20%;
-	/*float: left;*/
-	left:58.3%; 
+	border-radius: 50%;
+	left:58.4%; 
 	top:25%;
     background-color: black;
+    background-position: cover;
     position: absolute;
-    opacity: .5;
+    opacity: .8;
+    text-align: center;
+    color: black;
+    font-size: 30pt;
+    background-image: url('gear5.jpg');
+    -webkit-animation: rotation 10s infinite linear;
+   
 }
+/*#anime{
+	border: 0px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	left:27%; 
+	top:20%;
+    background-color: black;
+    background-image: url('galaxy5.jpg');
+    position: absolute;
+    opacity: .8;
+    text-align: center;
+    color: red;
+    font-size: 30pt;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}*/
+/*@keyframes anime {
+    0%   {background-color:red; right:0px; top:0px;}
+    25%  {background-color:yellow; right:500px; top:0px;}
+    50%  {background-color:blue; right:500px; top:300px;}
+    75%  {background-color:green; right:0px; top:300px;}
+    100% {background-color:red; right:0px; top:0px;}*/
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+}
+}
+#ho{
+	border: 0px solid black;
+	height: 100px;
+	width: 100px;
+    text-align: center;
+    color: red;
+    font-size: 60pt;
+    background-color: rgba(0,0,0,0.01);
+    position: absolute;
+	left:21%; 
+	top:40%;
+	opacity: .8;
+	font-family: 'Anton', sans-serif;
+}
+#mi{
+	border: 0px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+    color: red;
+    font-size: 60pt;
+    background-color: rgba(0,0,0,0.01);
+    position: absolute;
+	left:43%; 
+	top:40%;
+	opacity: .8;
+	font-family: 'Anton', sans-serif;
+}
+#se{
+	border: 0px solid black;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+    color: red;
+    font-size: 60pt;
+    background-color: rgba(0,0,0,0.01);
+    position: absolute;
+	left:65%; 
+	top:40%;
+	opacity:.8;
+	font-family: 'Anton', sans-serif;
+}
+#myname{
+	font-family: 'Anton', sans-serif;
+	position: absolute;
+	top: 75%;
+	left:31%;
+	font-size: 72pt;
+}
+
+
 @media all and (max-width: 480px){
   body{
+    }
+    #hours{
+    	width: 100%;
 
-  }
-  p{
+    }
+    #minutes{
+    	width: 100%;
 
-    
-  }
+    }
+    #seconds{
+    	width: 100%;
+
+    }
+    #mi{
+    	width:100%;
+
+    }
+    #ho{
+    	width:100%;
+
+    }
+    #se{
+    	width:100%; 
+         
+    }
 
 }
 @media all and (max-width: 480px) and (max-width: 767px){
   body{
+} 
+#hours{
+    	width: 100%;
 
-  }
-  p{
-    
-  }
+    }
+    #minutes{
+    	width: 100%;
+
+    }
+    #seconds{
+    	width: 100%;
+
+    } 
+    #mi{
+    	width:100%;
+
+    }
+    #ho{
+    	width:100%;
+
+    }
+    #se{
+    	width:100%; 
+         
+    }
+  
 
 }
 @media all and (max-width: 480px) and (max-width: 992px){
   body{
+}
+#hours{
+    	width: 100%;
 
-  }
-  p{
-    
-  }
+    }
+    #minutes{
+    	width: 100%;
+
+    }
+    #seconds{
+    	width: 100%;
+
+    }
+    #mi{
+    	width:100%;
+
+    }
+    #ho{
+    	width:100%;
+
+    }
+    #se{
+    	width:100%; 
+         
+    }
 
 }
